@@ -1,13 +1,10 @@
-body {
-    display: flex;
-}
-
-.image-section {
-    width: 33vw;
-    height: 100vh;
-}
-
-.form-section {
-    width: 67vw;
-    height: 100vh;
+@media only screen and (max-width: 320px) {
+    .image-section {
+        width: 100vw;
+        height: 25vh;
+    }
+    .form-section {
+        width: 100vw;
+        height: 75vh;
+    }
 }
