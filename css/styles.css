@@ -1,7 +1,13 @@
-.image-section {
+body {
+    display: flex;
+}
 
+.image-section {
+    width: 33vw;
+    height: 100vh;
 }
 
 .form-section {
-    
+    width: 67vw;
+    height: 100vh;
 }
