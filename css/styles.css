@@ -4,6 +4,7 @@
         height: 25vh;
         background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_small.jpg");
         background-size: cover;
+        position: relative;
     }
     .form-section {
         width: 100vw;
