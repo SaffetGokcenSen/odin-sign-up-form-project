@@ -42,5 +42,7 @@
     .form-section {
         width: 100vw;
         height: 75vh;
+        display: flex;
+        flex-direction: column;
     }
 }
