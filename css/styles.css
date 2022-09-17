@@ -49,8 +49,15 @@
         color: black;
         font-weight: bold;
         padding: 1rem;
+        font-size: 0.7rem;
     }
     .form-part {
         padding: 1rem;
+        font-size: 0.7rem;
+    }
+    
+    label, input {
+        font-size: 0.7rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 }
