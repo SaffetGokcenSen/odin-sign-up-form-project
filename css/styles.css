@@ -15,27 +15,27 @@
         top: 24vh;
         left: 0vw;
     }
-    a {
+    .image-credit a {
         padding: 2px 1px 0;
     }
       
-    a:link {
+    .image-credit a:link {
         color: yellow
     }
       
-    a:visited {
+    .image-credit a:visited {
         color: yellow;
     }
       
-    a:focus {
+    .image-credit a:focus {
         background: black;
     }
       
-    a:hover {
+    .image-credit a:hover {
         background: black;
     }
       
-    a:active {
+    .image-credit a:active {
         color: red;
     }
     
