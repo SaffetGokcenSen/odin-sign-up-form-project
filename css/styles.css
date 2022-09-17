@@ -8,12 +8,12 @@
     }
     .image-credit {
         position: absolute;
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         font-weight: bold;
         background-color: black;
         color: rgb(21, 230, 245);
-        top: 23vh;
-        left: 26vw;
+        top: 24vh;
+        left: 0vw;
     }
     a {
         padding: 2px 1px 0;
