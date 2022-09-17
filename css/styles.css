@@ -60,4 +60,20 @@
         font-size: 0.7rem;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
+
+    .button-part a:link {
+        color: rgb(8, 117, 26)
+    }
+    
+    .button-part a:focus {
+        background: whitesmoke;
+    }
+      
+    .button-part a:hover {
+        background: whitesmoke;
+    }
+      
+    .button-part a:active {
+        color: red;
+    }
 }
