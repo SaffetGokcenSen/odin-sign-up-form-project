@@ -11,7 +11,7 @@
         font-size: 0.4rem;
         font-weight: bold;
         background-color: black;
-        color: rgb(21, 230, 245);
+        color: yellow;
         top: 24vh;
         left: 0vw;
     }
@@ -20,11 +20,11 @@
     }
       
     a:link {
-        color: rgb(21, 230, 245);
+        color: yellow
     }
       
     a:visited {
-        color: rgb(21, 230, 245);
+        color: yellow;
     }
       
     a:focus {
