@@ -18,27 +18,27 @@
     .image-credit a {
         padding: 2px 1px 0;
     }
-      
+
     .image-credit a:link {
         color: yellow
     }
-      
+
     .image-credit a:visited {
         color: yellow;
     }
-      
+
     .image-credit a:focus {
         background: black;
     }
-      
+
     .image-credit a:hover {
         background: black;
     }
-      
+
     .image-credit a:active {
         color: red;
     }
-    
+
     .form-section {
         width: 100vw;
         height: 75vh;
@@ -68,11 +68,11 @@
     .button-part a:focus {
         background: whitesmoke;
     }
-      
+
     .button-part a:hover {
         background: whitesmoke;
     }
-      
+    
     .button-part a:active {
         color: red;
     }
