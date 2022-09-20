@@ -61,6 +61,10 @@
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
+    .button-part {
+        padding-left: 1rem;
+    }
+    
     .button-part a:link {
         color: rgb(8, 117, 26)
     }
@@ -72,7 +76,7 @@
     .button-part a:hover {
         background: whitesmoke;
     }
-    
+
     .button-part a:active {
         color: red;
     }
