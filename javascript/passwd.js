@@ -10,9 +10,13 @@ let submit_button = document.getElementById("submit_button");
 function checkMatch() {
     if (passwd.value !== passwd_confirm.value) {
         submit_button.disabled = true;
+        submit_button.classList.remove("active-button");
+        submit_button.classList.add("disabled-button");
     }
     else {
         submit_button.disabled = false;
+        submit_button.classList.remove("disabled-button");
+        submit_button.classList.add("active-button");
     }
 }
 
