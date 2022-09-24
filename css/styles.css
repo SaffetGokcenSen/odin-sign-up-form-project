@@ -1,3 +1,12 @@
+.disabled-button {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 10rem;
+    padding: 0.5rem 0;
+}
+
 @media only screen and (max-width: 320px) {
     .image-section {
         width: 100vw;
@@ -65,7 +74,7 @@
         padding-left: 1rem;
     }
 
-    .button-part button {
+    .active-button {
         background-color: rgb(8, 117, 26);
         color: white;
         border-radius: 5px;
