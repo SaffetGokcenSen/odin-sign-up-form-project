@@ -7,6 +7,10 @@
     padding: 0.5rem 0;
 }
 
+input:focus {
+    background-color: lightblue;
+}
+
 @media only screen and (max-width: 320px) {
     .image-section {
         width: 100vw;
