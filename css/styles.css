@@ -26,6 +26,8 @@ button {
 input:focus {
     border: 1px solid rgb(45, 90, 214);
     border-radius: 2px;
+    /*https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (max-width: 320px) {
