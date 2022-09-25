@@ -7,6 +7,7 @@ input {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    outline: none;
 }
 
 button {
@@ -23,7 +24,8 @@ button {
 }
 
 input:focus {
-    background-color: lightblue;
+    border: 1px solid rgb(45, 90, 214);
+    border-radius: 2px;
 }
 
 @media only screen and (max-width: 320px) {
