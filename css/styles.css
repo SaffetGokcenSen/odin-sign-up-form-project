@@ -116,4 +116,8 @@ input:focus {
     .button-part a:active {
         color: red;
     }
+
+    p.passwd-confirm {
+        position: relative;
+    }
 }
