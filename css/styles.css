@@ -88,6 +88,10 @@ input:focus {
         font-size: 0.7rem;
     }
 
+    input {
+        width: 10rem;
+    }
+
     .button-part {
         padding-left: 1rem;
     }
@@ -119,5 +123,14 @@ input:focus {
 
     p.passwd-confirm {
         position: relative;
+    }
+
+    .warning::after {
+        position: absolute;
+        color: red;
+        font-size: 0.65rem;
+        content: "* Passwords do not match";
+        top: 1.3rem;
+        left: 0.3rem;
     }
 }
