@@ -1,5 +1,5 @@
 button, input, label {
-    font-size: 0.7rem;
+    font-size: 12px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -81,11 +81,13 @@ input:focus {
         color: black;
         font-weight: bold;
         padding: 1rem;
-        font-size: 0.7rem;
+        font-size: 10px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     .form-part {
         padding: 1rem;
-        font-size: 0.7rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 12px;
     }
 
     input {
@@ -94,6 +96,8 @@ input:focus {
 
     .button-part {
         padding-left: 1rem;
+        font-size: 12px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
     .active-button {
