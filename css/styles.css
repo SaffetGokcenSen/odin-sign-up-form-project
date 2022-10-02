@@ -1,5 +1,17 @@
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    html {
+        font-size: 17px;
+    }
+}
+
 button, input, label {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -30,117 +42,115 @@ input:focus {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (max-width: 320px) {
-    .image-section {
-        width: 100vw;
-        height: 25vh;
-        background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_small.jpg");
-        background-size: cover;
-        position: relative;
-    }
-    .image-credit {
-        position: absolute;
-        font-size: 0.4rem;
-        font-weight: bold;
-        background-color: black;
-        color: yellow;
-        top: 23vh;
-        left: 0vw;
-    }
-    .image-credit a {
-        padding: 2px 1px 0;
-    }
+.image-section {
+    width: 100vw;
+    height: 25vh;
+    background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_small.jpg");
+    background-size: cover;
+    position: relative;
+}
+.image-credit {
+    position: absolute;
+    font-size: 0.4rem;
+    font-weight: bold;
+    background-color: black;
+    color: yellow;
+    top: 23vh;
+    left: 0vw;
+}
+.image-credit a {
+    padding: 2px 1px 0;
+}
 
-    .image-credit a:link {
-        color: yellow
-    }
+.image-credit a:link {
+    color: yellow
+}
 
-    .image-credit a:visited {
-        color: yellow;
-    }
+.image-credit a:visited {
+    color: yellow;
+}
 
-    .image-credit a:focus {
-        background: black;
-    }
+.image-credit a:focus {
+    background: black;
+}
 
-    .image-credit a:hover {
-        background: black;
-    }
+.image-credit a:hover {
+    background: black;
+}
 
-    .image-credit a:active {
-        color: red;
-    }
+.image-credit a:active {
+    color: red;
+}
 
-    .form-section {
-        width: 100vw;
-        height: 75vh;
-        display: flex;
-        flex-direction: column;
-    }
-    .intro-part {
-        color: black;
-        font-weight: bold;
-        padding: 1rem;
-        font-size: 10px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    .form-part {
-        padding-left: 1rem;
-        padding-top: 0rem;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 12px;
-    }
+.form-section {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+.intro-part {
+    color: black;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 0.7rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form-part {
+    padding-left: 1rem;
+    padding-top: 0rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.75rem;
+}
 
-    input {
-        width: 10rem;
-    }
+input {
+    width: 10rem;
+}
 
-    .button-part {
-        padding-left: 1rem;
-        font-size: 12px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
+.button-part {
+    padding-left: 1rem;
+    font-size: 0.75rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
-    .active-button {
-        background-color: rgb(8, 117, 26);
-        color: white;
-        border-radius: 5px;
-        border: 1px solid rgb(8, 117, 26);
-        width: 10rem;
-        padding: 0.5rem 0;
-    }
+.active-button {
+    background-color: rgb(8, 117, 26);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(8, 117, 26);
+    width: 10rem;
+    padding: 0.5rem 0;
+}
 
-    .button-part a:link {
-        color: rgb(8, 117, 26)
-    }
-    
-    .button-part a:focus {
-        background: whitesmoke;
-    }
+.button-part a:link {
+    color: rgb(8, 117, 26)
+}
 
-    .button-part a:hover {
-        background: whitesmoke;
-    }
+.button-part a:focus {
+    background: whitesmoke;
+}
 
-    .button-part a:active {
-        color: red;
-    }
+.button-part a:hover {
+    background: whitesmoke;
+}
 
-    p.passwd-confirm {
-        position: relative;
-    }
+.button-part a:active {
+    color: red;
+}
 
-    .warning::after {
-        position: absolute;
-        color: red;
-        font-size: 0.65rem;
-        content: "* Passwords do not match";
-        top: 1.3rem;
-        left: 0.3rem;
-    }
-    
-    .red-border {
-        border: 1px solid red;
-        border-radius: 2px;
-    }
+p.passwd-confirm {
+    position: relative;
+}
+
+.warning::after {
+    position: absolute;
+    color: red;
+    font-size: 0.65rem;
+    content: "* Passwords do not match";
+    top: 1.3rem;
+    left: 0.3rem;
+}
+
+.red-border {
+    border: 1px solid red;
+    border-radius: 2px;
 }
