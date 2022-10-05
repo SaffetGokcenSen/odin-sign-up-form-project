@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 @media only screen and (max-width: 320px) {
     html {
         font-size: 16px;
@@ -88,6 +92,7 @@ input:focus {
     display: flex;
     flex-direction: column;
 }
+
 .intro-part {
     color: black;
     font-weight: bold;
@@ -95,6 +100,7 @@ input:focus {
     font-size: 0.7rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 .form-part {
     padding-left: 1rem;
     padding-top: 0rem;
