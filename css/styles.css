@@ -6,11 +6,27 @@ body {
     html {
         font-size: 16px;
     }
+
+    .image-section {
+        width: 100vw;
+        height: 25vh;
+        background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_small.jpg");
+        background-size: cover;
+        position: relative;
+    }
 }
 
 @media only screen and (max-width: 375px) and (min-width: 321px) {
     html {
         font-size: 17px;
+    }
+    
+    .image-section {
+        width: 100vw;
+        height: 25vh;
+        background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_small.jpg");
+        background-size: cover;
+        position: relative;
     }
 }
 
@@ -24,6 +40,20 @@ body {
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
+    }
+
+    .image-section {
+        width: 100vw;
+        height: 25vh;
+        background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_medium.jpg");
+        background-size: cover;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 377px) {
+    html {
+        font-size: 19px;
     }
 }
 
@@ -66,6 +96,7 @@ input:focus {
     background-size: cover;
     position: relative;
 }
+
 .image-credit {
     position: absolute;
     font-size: 0.4rem;
