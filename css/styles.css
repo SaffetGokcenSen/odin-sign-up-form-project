@@ -13,7 +13,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 375px) and (min-width: 320px) {
+@media only screen and (max-width: 375px) and (min-width: 321px) {
     html {
         font-size: 17px;
     }
@@ -24,7 +24,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 425px) and (min-width: 375px) {
+@media only screen and (max-width: 425px) and (min-width: 376px) {
     html {
         font-size: 18px;
     }
@@ -32,6 +32,27 @@ body {
     .form-section {
         display: flex;
         flex-direction: row;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .communication {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .secret {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
 
