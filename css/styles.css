@@ -34,21 +34,7 @@ body {
         flex-direction: row;
     }
 
-    .name {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
-    .communication {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
-    .secret {
+    .name, .communication, .secret {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
