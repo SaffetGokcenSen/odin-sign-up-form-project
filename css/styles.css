@@ -59,7 +59,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        gap: 0.1rem;
+        gap: 0.2rem;
         flex-wrap: wrap;
     }
 
@@ -176,13 +176,13 @@ input:focus {
 .intro-part {
     color: black;
     font-weight: bold;
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 0.7rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .form-part {
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     padding-top: 0rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 0.75rem;
@@ -193,7 +193,7 @@ input {
 }
 
 .button-part {
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     font-size: 0.75rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
