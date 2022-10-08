@@ -2,27 +2,15 @@ body {
     margin: 0px;
 }
 
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    body {
+        display: flex;
+    }
+}
+
 @media only screen and (max-width: 320px) {
     html {
         font-size: 16px;
-    }
-
-    .image-section {
-        width: 100vw;
-        height: 25vh;
-        background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_small.jpg");
-        background-size: cover;
-        position: relative;
-    }
-
-    .image-credit {
-        position: absolute;
-        font-size: 0.4rem;
-        font-weight: bold;
-        background-color: black;
-        color: yellow;
-        top: 23vh;
-        left: 0vw;
     }
 }
 
@@ -30,55 +18,11 @@ body {
     html {
         font-size: 17px;
     }
-    
-    .image-section {
-        width: 100vw;
-        height: 25vh;
-        background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_small.jpg");
-        background-size: cover;
-        position: relative;
-    }
-
-    .image-credit {
-        position: absolute;
-        font-size: 0.4rem;
-        font-weight: bold;
-        background-color: black;
-        color: yellow;
-        top: 23vh;
-        left: 0vw;
-    }
 }
 
 @media only screen and (max-width: 425px) and (min-width: 376px) {
     html {
         font-size: 18px;
-    }
-
-    .name, .communication, .secret {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        gap: 0.2rem;
-        flex-wrap: wrap;
-    }
-
-    .image-section {
-        width: 100vw;
-        height: 25vh;
-        background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_medium.jpg");
-        background-size: cover;
-        position: relative;
-    }
-
-    .image-credit {
-        position: absolute;
-        font-size: 0.4rem;
-        font-weight: bold;
-        background-color: black;
-        color: yellow;
-        top: 23vh;
-        left: 0vw;
     }
 }
 
@@ -86,60 +30,56 @@ body {
     html {
         font-size: 19px;
     }
+}
 
-    body {
-        display: flex;
+.image-section {
+    width: 100vw;
+    height: 25vh;
+    background-size: cover;
+    position: relative;
+}
+
+@media only screen and (max-width: 320px) {
+    .image-section {
+        background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_small.jpg");
     }
+}
 
+@media only screen and (max-width: 375px) and (min-width: 321px) {
+    .image-section {
+        background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_small.jpg");
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+    .image-section {
+        background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_medium.jpg");
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
     .image-section {
         width: 60vw;
         height: 100vh;
         background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_medium.jpg");
-        background-size: cover;
-        position: relative;
     }
+}
 
+.image-credit {
+    position: absolute;
+    font-size: 0.4rem;
+    font-weight: bold;
+    background-color: black;
+    color: yellow;
+    top: 23vh;
+    left: 0vw;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
     .image-credit {
-        position: absolute;
-        font-size: 0.4rem;
-        font-weight: bold;
-        background-color: black;
-        color: yellow;
         top: 97vh;
         left: 0vw;
     }
-}
-
-button, input, label {
-    font-size: 0.75rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-input {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    outline: none;
-}
-
-button {
-    box-sizing: border-box;
-}
-
-.disabled-button {
-    background-color: grey;
-    color: white;
-    border-radius: 5px;
-    border: 1px solid grey;
-    width: 10rem;
-    padding: 0.5rem 0;
-}
-
-input:focus {
-    border: 1px solid rgb(45, 90, 214);
-    border-radius: 2px;
-    /*https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .image-credit a {
@@ -166,19 +106,19 @@ input:focus {
     color: red;
 }
 
-.form-section {
-    width: 100vw;
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-}
-
 .intro-part {
     color: black;
     font-weight: bold;
     padding: 0.5rem;
     font-size: 0.7rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.form-section {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-part {
@@ -188,8 +128,31 @@ input:focus {
     font-size: 0.75rem;
 }
 
+button, input, label {
+    font-size: 0.75rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 input {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
     width: 10rem;
+}
+
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+    .name, .communication, .secret {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 0.2rem;
+        flex-wrap: wrap;
+    }
+}
+
+button {
+    box-sizing: border-box;
 }
 
 .button-part {
@@ -239,4 +202,20 @@ p.passwd-confirm {
 .red-border {
     border: 1px solid red;
     border-radius: 2px;
+}
+
+.disabled-button {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 10rem;
+    padding: 0.5rem 0;
+}
+
+input:focus {
+    border: 1px solid rgb(45, 90, 214);
+    border-radius: 2px;
+    /*https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
