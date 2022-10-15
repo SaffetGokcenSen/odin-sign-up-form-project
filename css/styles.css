@@ -63,6 +63,12 @@ body {
     }
 }
 
+@media only screen and (min-width: 1025px) {
+    .image-section {
+        background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_large.jpg");
+    }
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 426px) {
     .image-section {
         height: 100vh;
