@@ -86,7 +86,7 @@ body {
     left: 0vw;
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 426px) {
+@media only screen and (max-width: 1440px) and (min-width: 426px) {
     .image-credit {
         top: 97vh;
         left: 0vw;
