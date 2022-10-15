@@ -45,13 +45,7 @@ body {
     position: relative;
 }
 
-@media only screen and (max-width: 320px) {
-    .image-section {
-        background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_small.jpg");
-    }
-}
-
-@media only screen and (max-width: 375px) and (min-width: 321px) {
+@media only screen and (max-width: 375px) {
     .image-section {
         background-image: url("/home/saffetgokcen/odin/odin-sign-up-form-project/images/victor-toweet-L7g3Ogj2CFc-unsplash_small.jpg");
     }
